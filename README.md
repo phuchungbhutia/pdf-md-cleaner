@@ -97,6 +97,22 @@ git add .
 git commit -m "Initial commit"
 gh repo create pdf-md-cleaner --public --source=. --remote=origin --push
 ```
+or
+### You already created a GitHub repo manually
+If you've already created a repo at https://github.com/phuchungbhutia/pdf-md-cleaner, just run:
+
+```bash
+git remote add origin https://github.com/phuchungbhutia/pdf-md-cleaner.git
+git branch -M main
+git push -u origin main
+```
+or 
+### Update
+```bash
+git add .
+git commit -m "Update"
+git push
+```
 ## 🗺️ Roadmap
  Core line cleaning and heading recognition
 
