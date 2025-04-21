@@ -125,10 +125,12 @@ git push
 ---
 ## 👥 Contributors
 <a href="https://github.com/phuchungbhutia/pdf-md-cleaner/graphs/contributors"> <img src="https://contrib.rocks/image?repo=phuchungbhutia/pdf-md-cleaner" /> </a>
+
 ---
 
 ## 📊 GitHub Stats
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=phuchungbhutia&repo=pdf-md-cleaner&theme=tokyonight" /> </p>
+
 ---
 
 ## 📜 License
