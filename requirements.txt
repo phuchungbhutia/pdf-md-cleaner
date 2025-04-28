@@ -1,8 +1,8 @@
-# Core
+pdfplumber
+mammoth
 markdownify
 python-docx
-PyMuPDF
-regex
-
-# Testing
+flake8
+black
+pre-commit
 pytest
