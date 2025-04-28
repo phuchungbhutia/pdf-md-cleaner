@@ -158,16 +158,3 @@ We welcome all pull requests, suggestions, and improvements.
 Licensed under the [MIT License](LICENSE).
 
 ---
-```
-
----
-
-# 🔥 Summary of Enhancements:
-- **Centered badges** at top.
-- **Modern structure** and bulleting.
-- **Docker usage instructions**.
-- **Makefile usage instructions**.
-- **Full GitHub stats**, contributors image.
-- **Smoother sectioning** (with emojis and dividers).
-
----

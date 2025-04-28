@@ -1,8 +1,8 @@
 Page of 65
-Page 1 of 65
+ of 65
 IMPLEMENTATION MANUAL FOR
 GRAM PANCHAYAT DEVELOPMENT PLAN
-Page 2 of 65
+ of 65
 TABLE OF CONTENT
 1.
 Purpose of theImplementationManual………..................……………………….......03
@@ -34,7 +34,7 @@ Utilization Certificate& Statement Of Expenditure (SOE)…………………….
 18. Work Flow ………………………………………………………………………………………………...37
 19. Annexes……………………………………………………………………………………………40
 20. Reference………………………………………………………………………………………….68
-Page 3 of 65
+ of 65
 1. PURPOSEOFTHEIMPLEMENTATIONMANUAL
 1.1The purpose of this Implementation Manual (IM) is to provide detailed guidance for Gram Panchayats who
 are responsible for planning, implementation, supervision and monitoring of the Gram Panchayat
@@ -75,7 +75,7 @@ Supervisor: 2 persons (Panchayat Inspector/Horticulture Inspector/APO [MGNREGA])
 5)
 Support: Line Department Officials at the BAC & GP level (Village intellectuals, retired govt.
 officials, NGOs/ SHGs etc.)
-Page 4 of 65
+ of 65
 2.3 Gram Planning Forum[Notification no.01/RMDD/P dated 19/5/2016]:-
 1)
 Chairman: Panchayat President
@@ -117,7 +117,7 @@ All GP Plan has to be prepared duly covering the available resources at the GPs 
 devolved by the departments vide Notification No. 3/RMⅅ/P dated 29/04/2008 [Activity Mapping] as
 well as schemes related to functions devolved as per 11th schedule of the 73rd Amendment of the
 Constitution.
-Page 5 of 65
+ of 65
 3.3
 All works, that are proposed to be executed, at the Gram Panchayat shall be discussed and passed in
 the Gram Sabha. The Gram Sabha shall approve and finalize such list of works/projects that would be
@@ -161,7 +161,7 @@ All prevailing Government Schedule of Rates (SOR) & Analysis of Rates (AOR), the
 Panchayat (Financial) Rule, and Budget & Accounts Manual, February 2017, shall be strictly followed
 during the formulation and implementation stage of any work/project. Generally accepted financial
 principle shall be applied in absence of clear provisions in the Sikkim Gram Panchayat (Financial)
-Page 6 of 65
+ of 65
 Rules and Budget & Accounts Manual in transaction of business relating to operation of Gram
 Panchayat Fund.
 3.11
@@ -197,7 +197,7 @@ vi) Procurement from a single source may be done in the following cases:-
 Manufacturer / dealer of the goods required.
 In case of emergency, the required goods may be purchased from a particular source
 duly recording reasons for such decision with the approval of competent authority.
-Page 7 of 65
+ of 65
 3.12
 Acceptance of Tenders: The tenders/quotations for direct purchases or bids shall be accepted by the
 appropriate designated authority at Gram Panchayat. The purchases should be made from the lowest
@@ -249,7 +249,7 @@ Engineer for each work approved by the Gram Sabha and backed by provision in the
 Technical sanction ensures that the proposal is structurally sound and estimate is an economical one.
 The rate should be adopted from the standard schedule of rates and for non-schedule items, rates
 should be based on proper analysis of rates.
-Page 8 of 65
+ of 65
 4.2.
 The estimate along with a brief technical report, after vetting by the Assistant Engineer (BAC), shall be
 forwarded to the Gram Panchayat for approval and sanction of the scheme.
@@ -305,7 +305,7 @@ Gram Panchayat
 2
 Above Rs.20.00 lakhs up to Rs.50.00 lakhs
 Block Development Officer
-Page 9 of 65
+ of 65
 Note : Where additional financial implication is involved for the works taken up out of Gram Panchayat
 Fund, Gram Panchayat shall obtain approval of Gram Sabha.
 V. Technical Sanction:
@@ -366,7 +366,7 @@ No & Date
 Source of
 Fund
 Remarks
-Page 10 of 65
+ of 65
 of
 expenditure
 & Date
@@ -408,7 +408,7 @@ form, General Directions and Conditions of Contract and Schedule of Rates and Qu
 shall be issued on production of counter foil of Bank receipt, from the designated Bank, for the
 amount specified in the NIT. The tender form on which the contractor is to quote the rate/offer
 shall be issued to the intending tenderers at the second stage on production of Term Deposit
-Page 11 of 65
+ of 65
 Receipt (TDR) or Fixed Deposit Receipt (FDR) from the designated Bank for the amount of
 Earnest Money and within the date as specified in the NIT.
 (iii) Tender Form as per Annexure-V shall be issued by the VAA in respective Gram Panchayat.
@@ -448,7 +448,7 @@ Earnest Money.
 a)
 The rate of earnest money, which a contractor should deposit, is 2.5% of the estimated cost
 put to tender.
-Page 12 of 65
+ of 65
 b)
 The earnest money pledged in favour of the tender inviting authority is accepted only in the
 form of Temporary Deposit Receipt or Fixed Deposit Receipts from any scheduled bank in
@@ -490,7 +490,7 @@ procedural and operational information, target group, resource envelope and the 
 In case of projects outsourced to authorized/empanelled third party for implementation, a
 Memorandum of Agreement shall be drawn between the GP and the Agency.
 7.BILL PROCESS & PAYMENT FOR WORKS
-Page 13 of 65
+ of 65
 7.1
 The payment to contractor and others for work done or services rendered are made on the basis of
 measurement recorded in Measurement Books(Annexure-VIII). The measurement for the work done
@@ -541,7 +541,7 @@ cum-Vigilance Committee.The Accounts Officer or his representative shall obtain 
 (BAC)/DE (Zilla) and forward to the Sabhapati of the Gram Panchayat Unit,through the BDO, for accord
 of approval to release payment. The PAA shall prepare cheque in favour of the contractor/agency and
 obtain signature of authorized signatory in Gram Panchayat.
-Page 14 of 65
+ of 65
 7.7
 Register of Works (Form PRI-40): The permanent and collective record of the expenditure incurred
 during a year on each work is the " Register of Works". This record is maintained in the Gram Panchayat and
@@ -589,7 +589,7 @@ Certain
 activities,
 like
 administration of the Panchayat, are continuous and the panchayat has to find adequate funding for these
-Page 15 of 65
+ of 65
 activities. These would form the first charge on the available resources of the Panchayats. There may be
 many other items of
 activities or works based on suggestions received from the people on which the
@@ -665,7 +665,7 @@ How is the Panchayat budget to be prepared? Top down traditional method under wh
 budget can be
 prepared by the government agency based on certain policy. Bottom up grassroots level approach is to involve
 the people of Panchayat to make their budget.
-Page 16 of 65
+ of 65
 Before getting into the expenditure decisions, people of the Panchayat must know how much money they have in
 Panchayat fund.
 Then comes which are the development works and activities to be considered for spending.
@@ -712,7 +712,7 @@ wisdom. No expenditure can be incurred without provision of the same in the
 budget.
 Without
 adequate
-Page 17 of 65
+ of 65
 Budget provision, Panchayat shall not commit any expenditure by issuing Sanction Order/Work Order. The
 authority shall not issue any Sanction Order or Work Order without sufficient provision in the Budget.
 In case Panchayat requires to incur additional expenditure not provided in the Budget, provision shall be
@@ -756,7 +756,7 @@ iii) The estimated expenditure, inter alia, comprises
 administrative cost such as payment of salaries and other allowances, wages, payment of
 pension and gratuities, office expenses, purchase of furniture and fixture, office equipment,
 stationery, electricity charges and other incidental charges, new item of expenditure along
-Page 18 of 65
+ of 65
 9. MAINTENANCE OF ACCOUNTS
 with reasons thereof, etc.
 The above estimates must be based on expenditure incurred
@@ -794,7 +794,7 @@ the money the way he or she likes because the money does not belong to him or he
 Accounts of Gram Panchayats
 Since the accounts of Gram Panchayats in many cases are maintained on cash basis and transactions
 are recognized and recorded only when cash is paid or received, concepts of cost, conservatism etc. are
-Page 19 of 65
+ of 65
 automatically covered by cash system of accounts. With the increasing use of Information Technology in
 maintenance of accounts, some of these Books of Accounts may not be maintained at all as the
 computers can process the information and produce the desired reports by aggregating the information.
@@ -840,7 +840,7 @@ to watch dues correctly assessed, collected and promptly credited to the fund,
 to watch proper maintenance of Demand and Collection Register by all responsible for assessment,
 collection and recording in this register. For this he shall obtain returns of revenues realised and its
 progress,
-Page 20 of 65
+ of 65
 to watch that there is no leakage and that there are adequate checks to avoid leakage,
 to arrange for test inspection of account of receipts
 to watch that no due to PRI is left outstanding unless there is a sufficient reason to that. In such
@@ -876,7 +876,7 @@ the same vigilance as a person of ordinary prudence would exercise in respect of
 Competent authority shall not sanction an expenditure unless there is a budget provision for it.
 Head of office shall exercise the control over expenditure. For this he shall see that-
 Total expenditure is within the authorized limits of appropriation/budgeted provisions,
-Page 21 of 65
+ of 65
 The expenditure is in the interest of the concerned PRI,
 The expenditure is on the objects, for which there is a provision in the budget,
 There is proper control over progress of expenditure on commitments and liabilities incurred but not
@@ -914,7 +914,7 @@ The amounts received in panchayat office and credited in the Panchayat Fund thro
 shall be entered in the classified register and in general cash book on credit side.
 Duplicate or a copy of the receipt for the money received shall be issued on the ground that original
 has been lost. If necessity arises, a certificate to this effect may be issued to the concerned.
-Page 22 of 65
+ of 65
 III. Register of Fixed Assets
 Particulars of all assets of movable and immovable assets shall be entered in the register.
 Separate pages shall be opened for different types of assts. These assets could be community land,
@@ -950,7 +950,7 @@ a transaction and should be signed by the Head of the Office.
 At the end of each month the entries of receipt and payment side in the general cash book shall be
 compared item wise with treasury pass book and the balance agreed. The difference, if any, shall be
 explained in a footnote in the cash book.
-Page 23 of 65
+ of 65
 VI. Demand and Collection Register
 (i) Household Tax
 The arrears of past years with the names of persons shall be carried forward to the new register every
@@ -984,7 +984,7 @@ Any change in the allotment subsequently as well as revised or supplementary est
 noted.
 The amounts of bills passed for payment shall be recorded against the respective work and
 progressive totals shall be taken in the respective column.
-Page 24 of 65
+ of 65
 On completion of any work, receipt of completion certificate shall be recorded. Incomplete works at the
 close of the year shall be carried forward to the register of next year along with the progressive
 expenditure recorded there against.
@@ -1020,7 +1020,7 @@ the end of the year.
 At the beginning of each year, all outstanding advances shall be brought forward in the register and
 initialed by the Secretary.
 No adjustment shall be made unless such bill is accepted and passed.
-Page 25 of 65
+ of 65
 XII. Register of Investments
 The moneys not required for immediate use shall be invested in Fixed Deposit Receipts or instrument
 specified in particular scheme.
@@ -1079,7 +1079,7 @@ made in the budget along with the reasons for variations, if any.
 Statement of expenditure on each work and activities during the financial year as against the
 estimates in the budget along with the reasons for variations, if any.
 (iii) Statement of own receipts from taxes and non-taxes along with figures of last financial year.
-Page 26 of 65
+ of 65
 (iv) Statement of grants received from State Government and expenditure incurred there against
 during the financial year.
 (v)
@@ -1117,7 +1117,7 @@ a)
 A PRI can compare its performance with reference to the budget estimates of that year. It can
 also exercise control of expenditure against the sanctioned provision under each head of Receipt and
 Expenditure as per approved Budget Estimates.
-Page 27 of 65
+ of 65
 b)
 The stakeholders of PRI are interested to know -
 i.What is the work/activity wise flow of fund coming in and going out i.e. money received and spent?
@@ -1161,7 +1161,7 @@ Development Officer should take responsibility for GPs under their jurisdiction 
 availing grants.(Annexure XV & XVI respectively)
 11.AUDITING
 The audit in Gram Panchayat generally covers the following:
-Page 28 of 65
+ of 65
 11.1. Statutory Audit
 This audit is conducted by the Local Fund Audit appointed by the StateGovernment. The powers and duties of
 such an auditor, and its reporting requirements aredescribed in the relevant statute and Rules.The statutory
@@ -1195,7 +1195,7 @@ consultation with the Office of the Accountant General,Sikkim, from an audit pan
 the Finance Revenue and Expenditure Department. (These Auditors shall be subjected to regular rotation of
 audits)
 11.3. Technical Guidance& Supervision Audit
-Page 29 of 65
+ of 65
 The C&AG provide technical guidance and supervision over maintenance of accounts and audit of Gram
 Panchayat.
 11.4. Social Audit
@@ -1232,7 +1232,7 @@ MIS data entry shall be done as per PES application.
 13.2
 Annual Social Audit will have to be conducted which should converge with the Social Audit of
 MGNREGA.
-Page 30 of 65
+ of 65
 13.3
 The Vigilance & Monitoring Committee (VMC), Standing Committee/Sectoral Working Group and
 Ward Development Committee shall also monitor the scheme on a regular basis. The VAA shall
@@ -1240,7 +1240,7 @@ maintain the records of the visits conducted by the VMC, SC and WDC.
 13.4
 The respective Zilla Panchayat shall do the field visit once a month and the record of the visit should
 be maintained in a register at the GPK.
-Page 31 of 65
+ of 65
 14.MANAGEMENT INFORMATION SYSTEM
 14.1
 The E-Panchayat Cell of DoPRshall ensure that all data and information are maintained in the PES
@@ -1271,7 +1271,7 @@ Administrative Approval
 Output/Complete Work/
 Complete CB Activity
 [NAD]
-Page 32 of 65
+ of 65
 when required. The Gram Panchayat shall maintain proper records of such receipts and issue. All
 such records are to be maintained by VAA and kept in his custody in the Gram Prasashan Kendra.
 15.3
@@ -1287,7 +1287,7 @@ capital gains, if any, will form the part of the Own Source Revenue (OSR) of the
 Any amendments of the Implementation Manual will be announced as well as uploaded in the RMⅅ website.
 Simultaneously, State Level Empowered Committee, ADCs (Dev.) and BDOswill beinformed through letters/e-
 mails.The changes will come into force from the date of issue of the amendment.
-Page 33 of 65
+ of 65
 18.WORK FLOW
 18.1 PROCEDURE FOR PROCESSING OFGRAM PANCHAYATPROPOSALS
 The life cycle of any proposal initiated at the Gram Panchayat Level shall follow the following route of process;
@@ -1368,7 +1368,7 @@ BDO
 AE(BAC)/DE(Zilla)
 [Conclusion of Contract
 Agreement/ Execution of Work]
-Page 34 of 65
+ of 65
 18.2 PROCEDURE FOR APPROVAL & SANCTION OF WORKSBILL
 Panchayat President
 Panchayat Secretary
@@ -1393,7 +1393,7 @@ JE [BAC]
 [Prepare Works Bill after ensuring the Clearance Certificate from
 AE (BAC)/DE (Zilla)
 [Verify entries in the Measurement Book]
-Page 35 of 65
+ of 65
 18.3PROCEDURE FOR APPROVAL & SANCTION OF SOCIAL SECTOR BILLS
 Panchayat President
 Panchayat Secretary
@@ -1412,7 +1412,7 @@ Panchayat President
 [For Approval &Release of
 Block Development
 Officer
-Page 36 of 65
+ of 65
 19.ANNEXURE
 Annexure I:
 Notification no. 10/RMⅅ/P dt.01/10/2015
@@ -1463,7 +1463,7 @@ PRI 20 - Statement of Expenditure (SOE)
 [Para 10]
 Annexure XVII: Responsibility for Quality Control
 [Para 12.2]
-Page 37 of 65
+ of 65
 ANNEXURE I
 GOVERNMENTSIKKIM
 GAZETTE
@@ -1523,7 +1523,7 @@ By order.
 Sd/-
 (A. K. Srivastava, IAS)
 Chief Secretary
-Page 38 of 65
+ of 65
 ANNEXURE II
 GOVERNMENT OF SIKKIM
 RURAL MANAGEMENT DEVELOPMENT PANCHAYATI RAJ DEPARTMENT
@@ -1583,7 +1583,7 @@ availability, resources and capacity to do it, etc.,
 To find out the technical feasibility, financial norms, viability of the plan, and Administrative
 arrangements related to the selected proposals with the help of SYSTEM SUPPORT FOR PLANNING
 AND IMPLEMENTATION.
-Page 39 of 65
+ of 65
 7.
 Finalizing the proposals for the GP and making the Gram Panchayat Plans in the format prescribed by
 the Government with the approval of the Gram Saba and timely submission of the plan to District
@@ -1648,7 +1648,7 @@ Suggesting an action plan to realize the vision with priorities and reasons for 
 To deal with any queries related to the sector when the plan is scrutinized at district level.
 7.
 Preparation of draft projects to implement the action plan.
-Page 40 of 65
+ of 65
 8.
 Monitoring of projects as directed by GPF.
 9.
@@ -1680,7 +1680,7 @@ Sd/-
 (D. R. Nepal)
 Secretary
 Rural Management Development & Panchayati Raj Department
-Page 41 of 65
+ of 65
 ANNEXURE III
 RURAL DEVELOPMENT DEPARTMENT
 GOVERNMENT OF SIKKIM
@@ -1740,7 +1740,7 @@ receipts
 and payments shall be duly supported by vouchers which shall be numbered and their
 number shall be recorded in the Cash Book. All receipts and payments vouchers shall be kept separately
 in order of its number.
-Page 42 of 65
+ of 65
 (4) The Cash Book shall be closed.
 (5) Erasure or over-writing of any entry in the Cash Book shall not be allowed. All incorrect entries shall be
 cancelled by drawing the pen across the incorrect entry and inserting the correct entry with the initials of
@@ -1803,7 +1803,7 @@ No re-appropriation shall be allowed without the approval of the State Governmen
 (1)
 The power to incur expenditure out of the provision made in the approved budget and the extent of such
 power shall be in accordance with the delegation of financial powers specified in Schedule I.
-Page 43 of 65
+ of 65
 (2)
 The Gram Panchayat
 shall discuss and approve any expenditure during its meetings held in
@@ -1834,7 +1834,7 @@ Sd/-
 R.Ongmu,
 Secretary to the Government of Sikkim,
 Rural Development Department.
-Page 44 of 65
+ of 65
 ANNEXURE IV
 PRI 25
 ............................................................... Gram Panchayat Unit
@@ -1889,7 +1889,7 @@ Panchayat Fund with .................. Bank towards the cost of tender document 
 5.
 Earnest Money Deposit @ 2.5% in the form of Fixed Deposit Receipt / Term Deposit Receipt of the
 schedule Bank in favour of Panchayat Sabhapati, ................ Gram Panchayat. Tender form shall be
-Page 45 of 65
+ of 65
 issued only on production of the deposit receipts to that contractors /firm who has obtained the tender
 documents.
 6.
@@ -1932,7 +1932,7 @@ in the schedules. The contractors are required to submit necessary documents to 
 payment for carriage of Non Stock Materials.
 17. Mobilization advance limited to a maximum of 15% of the estimated cost put to tender shall be allowed for
 selected works only and it should on a 10% simple interest.
-Page 46 of 65
+ of 65
 18. Subletting of contract work shall not be allowed and if it comes to the notice, the original contract shall be
 cancelled.
 19. The contractor shall also make arrangements to have photographs of the works taken at least three
@@ -1947,7 +1947,7 @@ Panchayat Sabhapati
 Assistant Engineer
 …………………….... Gram Panchayat Unit
 …….....................................BAC
-Page 47 of 65
+ of 65
 ANNEXURE V
 ............................................................. Gram Panchayat Unit
 TENDER FORM
@@ -1985,7 +1985,7 @@ schedule of rates and quantities enclosed with the Tender Documents.
 Signature of tenderer
 Grade:\_\_\_\_\_\_\_\_\_\_\_\_\_
 Regd. No:\_\_\_\_\_\_\_\_\_\_\_\_\_
-Page 48 of 65
+ of 65
 ANNEXURE VI
 CONTRACT AGREEMENT FORM
 [Reference Paragraph 5.8]
@@ -2051,7 +2051,7 @@ the
 cost
 of
 Rs.\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ as detailed in memorandum.
-Page 49 of 65
+ of 65
 The contractor, on the other part, has agree to abide by the condition of contract, and complete the work and remedy any
 defects therein conformity in all aspect with the provisional of the contract.
 The following documents shall be deemed to form and be ready and construed has part of this agreement viz.
@@ -2089,7 +2089,7 @@ Redg. No
 :\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 Address
 :\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-Page 50 of 65
+ of 65
 ANNEXURE VII
 .......................................... Gram Panchayat Unit
 under .................................................. Block Administrative Centre
@@ -2130,7 +2130,7 @@ Copy for information to:
 11. Chairman, SAVC
 12. Work Order File
 13. Office Copy
-Page 51 of 65
+ of 65
 ANNEXURE VIII
 PRI 23
 .......................................... Gram Panchayat Unit
@@ -2153,7 +2153,7 @@ Areas
 4
 5
 6
-Page 52 of 65
+ of 65
 ANNEXURE IX
 PRI 24
 WORK BILL FORM
@@ -2234,7 +2234,7 @@ m) Gross ( a to h)
 Rs \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 Signature of the Passing Authority [AE(BAC)/DE(Zilla)]
 Signature of Paying Authority [Panchayat Sabhapati]
-Page 53 of 65
+ of 65
 ANNEXURE X
 PRI 44
 ............................................................... Gram Panchayat Unit
@@ -2271,7 +2271,7 @@ Amount
 9
 10
 11
-Page 54 of 65
+ of 65
 ANNEXURE XI
 PRI 28
 HAND RECEIPTS
@@ -2296,7 +2296,7 @@ Cheque No : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 6. Received Rs. \_\_\_\_\_\_\_\_\_\_ ( Rupees\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_)
 Date : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 Signature of Receiving Authority
-Page 55 of 65
+ of 65
 ANNEXURE XII
 PRI 40
 REGISTER OF WORKS
@@ -2368,7 +2368,7 @@ Total
 Signature of
 GP authority
 Page of 65
-Page 56 of 65
+ of 65
 ANNEXURE XIII
 BUDGET FORMAT
 [Reference Paragraph 8.12]
@@ -2441,7 +2441,7 @@ Improvement Grant
 Total State Finance Commission Grants
 iii)
 Other Grants from State Government
-Page 57 of 65
+ of 65
 A)
 Grants from RMⅅ/PR Deptt
 I
@@ -2502,7 +2502,7 @@ Interest Receipts
 Own Source (Total)
 7.
 Total Receipts ( 1+2+3+4+5+6)
-Page 58 of 65
+ of 65
 ESTIMATED EXPENDITURE OF\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ GPU
 Financial Year ( figures in rupees)
 Sl. No.
@@ -2586,7 +2586,7 @@ Total Revenue Expenditure Works/ Schemes
 Total Revenue Expenditure (A+B)
 C
 Capital Expenditure
-Page 59 of 65
+ of 65
 i)
 Construction of School Playground
 ii)
@@ -2604,7 +2604,7 @@ Constrcution of Resource Recovery Centre
 C
 Total Capital Expenditure
 Total Outlay ( A + B + C )
-Page 60 of 65
+ of 65
 ANNEXURE XIV
 PRI 1
 SIMPLIFIED FORMAT OF CASH BOOK
@@ -2631,7 +2631,7 @@ brief narration
 No. of
 voucher &
 page No. of
-#W/D/S/ L
+# W/D/S/ L
 Funds
 Own
 Income
@@ -2654,7 +2654,7 @@ Others
 Total
 # Note: W stands for Register of works, D stands for Register of Demand & Collections, S stands for Register of
 Stock & Stores and L stands for Register of Loans & Advances,
-Page 61 of 65
+ of 65
 Page No………
 CASH BOOK
 Gram Panchayat……………………..…………………………………………
@@ -2678,7 +2678,7 @@ and functional head
 No. of
 voucher &
 page No. of
-#W/D/S/L
+# W/D/S/L
 Funds
 Own
 Income
@@ -2708,7 +2708,7 @@ Misc.
 Closing balance c/f
 (to next page/year)
 Total
-Page 62 of 65
+ of 65
 ANNEXURE XV
 PRI 19
 UTILIZATION CERTIFICATE
@@ -2749,7 +2749,7 @@ Kinds of checks exercised
 3.
 Signature of the VAASignature of the Panchayat President
 (with seal of the Gram Panchayat & date)
-Page 63 of 65
+ of 65
 ANNEXURE XVI
 PRI 20
 ……………………………………………..……………….. Gram Panchayat
@@ -2766,7 +2766,7 @@ on………….
 Remarks
 Authorized Signatory
 ANNEXURE XVII
-Page 64 of 65
+ of 65
 RESPONSIBILITY FOR QUALITY CONTROL
 [Reference Paragraph 12.2]
 Following responsibilities of Gram Panchayats are assigned to various field Engineers in respect of assurance of
@@ -2901,7 +2901,7 @@ General quality of work with particular reference to lines and
 level/adherence to drawings and specifications and functionality
 AE
 AE & JE
-Page 65 of 65
+ of 65
 REFERENCE
 1.
 Handbook on Gram Panchayat Governance, Ministry of Panchayati Raj, GoI
