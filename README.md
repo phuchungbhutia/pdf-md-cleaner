@@ -1,72 +1,121 @@
-# 🧹 PDF Markdown Cleaner
+# 📚 pdf-md-cleaner
 
-Effortlessly clean and optimize Markdown files converted from PDFs — remove junk, fix formatting, and retain document structure.
+> **Convert and clean** PDF, DOC, DOCX, and TXT files into **beautiful, clean Markdown** — preserving folder structure and filenames.
 
 ![License](https://img.shields.io/github/license/phuchungbhutia/pdf-md-cleaner)
 ![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg)
 ![Build](https://img.shields.io/github/actions/workflow/status/phuchungbhutia/pdf-md-cleaner/python-app.yml)
 ![Issues](https://img.shields.io/github/issues/phuchungbhutia/pdf-md-cleaner)
 
-## Features
+<p align="center">
+  <img src="https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge" />
+</p>
 
-✅ Remove repeated page headers, footers, and page numbers  
-✅ Merge broken lines and fix paragraph flow  
-✅ Auto-convert ALL CAPS to Markdown headings  
-✅ Lightweight and customizable with regex  
-✅ Easy to plug into your existing MD processing pipeline
+---
 
-## 🎬 Demo
+## ✨ Features
 
-> _Drop a before/after GIF here if you like. Use [Licecap](https://www.cockos.com/licecap/) or similar._
- 
-Before:	After:
-Page 1	
-THIS IS A HEADING	## This Is A Heading
-Some text	Some text More text continues.
-More text
+- 📄 **Convert**: PDF, DOCX, DOC, TXT ➔ Markdown
+- 🧹 **Clean**: Remove headers, footers, page numbers
+- 🧠 **Fix**: Broken paragraphs, heading structures
+- 🛠 **Preserve**: Original filenames and folder hierarchy
+- 🚀 **Easy to use**: Run a single Python script to process everything!
 
-## 🧰 Getting Started
+---
 
-### 📁 Project File Structure
-```css
+## 📂 Project Structure
+
+```plaintext
 pdf-md-cleaner/
 ├── cleaner/
-│   ├── __init__.py
-│   └── markdown_cleaner.py
+│   ├── file_converter.py      # Converts various formats to Markdown
+│   ├── markdown_cleaner.py    # Cleans Markdown files
+├── example/                   # Place your input files here
+├── output/
+│   ├── converted/              # Markdown after conversion
+│   ├── cleaned/                # Final cleaned Markdown
 ├── tests/
 │   └── test_cleaner.py
-├── example/
-│   └── sample.md
-├── .gitignore
-├── README.md
+├── main.py                     # Main script
 ├── requirements.txt
-└── main.py
+├── .gitignore
+└── README.md
 ```
 
-### 🔧 Usage
+---
 
-1. Put your `.md` file in the `example/` folder
-2. Edit `main.py` to point to the right file
-3. Run the script:
+## 🚀 Quick Start
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/phuchungbhutia/pdf-md-cleaner.git
+cd pdf-md-cleaner
+```
+
+### 2. Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Add Your Files
+
+Place `.pdf`, `.docx`, `.doc`, `.txt` files into the `example/` folder.
+
+### 4. Run the Script
 
 ```bash
 python main.py
 ```
-4. Cleaned file will be saved as example/cleaned_sample.md
+
+### 5. Check Results
+
+- Converted Markdown: `output/converted/`
+- Cleaned Markdown: `output/cleaned/`
+
+---
+
+## ⚙️ How It Works
+
+| Step | Action | Output Folder |
+|:----:|:------:|:-------------:|
+| 1 | Convert input files | `output/converted/` |
+| 2 | Clean Markdown | `output/cleaned/` |
+
+- **Conversion:** PDF, DOCX, DOC, TXT ➔ basic Markdown
+- **Cleaning:** Remove headers, fix paragraphs, auto-create headings
+
+---
+
+## 🛠 Tech Stack
+
+- Python 3.8+
+- [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/) — PDF extraction
+- [python-docx](https://python-docx.readthedocs.io/en/latest/) — DOCX parsing
+- [markdownify](https://pypi.org/project/markdownify/) — HTML ➔ Markdown
+- Regex — Pattern matching and cleaning
+
+---
+
+## 🚧 Future Improvements
+
+- [ ] Auto-detect and fix complex tables
+- [ ] Advanced heading hierarchy based on font size
+- [ ] CLI Interface (choose file/folder/cleaning rules via terminal)
+- [ ] Docker container for easy deployment
+- [ ] GitHub Action for automatic processing
+
+---
 
 
-### 🧪 Run tests
-```bash
-pytest tests/
-```
+# 🎯 One Liner
 
-### 🛠️ Customize
-Edit the regex patterns in main.py to fit your document.
+> **pdf-md-cleaner**: Turn your messy documents into clean, structured Markdown — effortlessly!
 
-### 🐍 Requirements
-
-- Python 3.7+
-- `pytest` for testing
+---
 
 ### 📦 Install
 
@@ -77,17 +126,6 @@ pip install -r requirements.txt
 ```
 ---
 
-### 📂 `.gitignore`
-
-```gitignore
-__pycache__/
-*.pyc
-.env
-*.md~ 
-*.log
-.idea/
-.vscode/
-```
 
 ### 🌐 GitHub Setup Tips
 ```bash
@@ -113,15 +151,6 @@ git add .
 git commit -m "Update"
 git push
 ```
-## 🗺️ Roadmap
- Core line cleaning and heading recognition
-
- Improved table structure parser
-
- CLI support with file input/output options
-
- Optional GUI using Tkinter or Textual
-
 ---
 ## 👥 Contributors
 <a href="https://github.com/phuchungbhutia/pdf-md-cleaner/graphs/contributors"> <img src="https://contrib.rocks/image?repo=phuchungbhutia/pdf-md-cleaner" /> </a>
@@ -131,8 +160,11 @@ git push
 ## 📊 GitHub Stats
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=phuchungbhutia&repo=pdf-md-cleaner&theme=tokyonight" /> </p>
 
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=phuchungbhutia&repo=pdf-md-cleaner&theme=radical" />
+</p>
+
 ---
 
 ## 📜 License
-This project is licensed under the MIT License. See LICENSE for more info.
----
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for more info.

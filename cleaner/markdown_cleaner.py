@@ -6,7 +6,6 @@ def remove_page_headers_footers(text, patterns):
     return text
 
 def fix_broken_paragraphs(text):
-    # Merge lines unless they end with punctuation
     return re.sub(r'(?<![\.\?\!\:])\n(?![\n#\-\*])', ' ', text)
 
 def convert_all_caps_to_headings(text):

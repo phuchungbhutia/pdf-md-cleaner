@@ -1,0 +1,8 @@
+# Core
+markdownify
+python-docx
+PyMuPDF
+regex
+
+# Testing
+pytest
