@@ -15,7 +15,6 @@
 
 ---
 
-<<<<<<< HEAD
 ## ✨ Features
 
 - 📄 **Convert**: PDF, DOCX, DOC, TXT ➔ Markdown
@@ -25,9 +24,6 @@
 - 🚀 **Easy to use**: Run a single Python script to process everything!
 
 ---
-=======
-## 🧰 Getting Started
->>>>>>> d31de667abbf40a92316fe0243842afd26fb2ab3
 
 ## 📂 Project Structure
 
