@@ -14,7 +14,7 @@ We welcome contributions, including:
 2. **Clone** your fork
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/pdf-md-cleaner.git
+git clone https://github.com/phuchungbhutia/pdf-md-cleaner.git
 cd pdf-md-cleaner
 ```
 3. **Create** a branch for your work
