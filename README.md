@@ -1,27 +1,26 @@
 # 📚 pdf-md-cleaner
 
-> **Convert and clean** PDF, DOC, DOCX, and TXT files into **beautiful, clean Markdown** — preserving folder structure and filenames.
-
-![License](https://img.shields.io/github/license/phuchungbhutia/pdf-md-cleaner)
-![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg)
-![Build](https://img.shields.io/github/actions/workflow/status/phuchungbhutia/pdf-md-cleaner/python-app.yml)
-![Issues](https://img.shields.io/github/issues/phuchungbhutia/pdf-md-cleaner)
+> **Convert and clean** PDF, DOC, DOCX, and TXT files into **beautiful, clean Markdown**, while preserving folder structures and file naming.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/build-passing-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/python-3.8%2B-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/github/license/phuchungbhutia/pdf-md-cleaner?style=for-the-badge" />
+  <img src="https://img.shields.io/github/issues/phuchungbhutia/pdf-md-cleaner?style=for-the-badge" />
+  <img src="https://img.shields.io/github/stars/phuchungbhutia/pdf-md-cleaner?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/phuchungbhutia/pdf-md-cleaner?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/python-3.8+-blue?style=for-the-badge" />
 </p>
 
 ---
 
 ## ✨ Features
 
-- 📄 **Convert**: PDF, DOCX, DOC, TXT ➔ Markdown
-- 🧹 **Clean**: Remove headers, footers, page numbers
-- 🧠 **Fix**: Broken paragraphs, heading structures
-- 🛠 **Preserve**: Original filenames and folder hierarchy
-- 🚀 **Easy to use**: Run a single Python script to process everything!
+- 📄 **Convert**: `.pdf`, `.docx`, `.doc`, `.txt` ➔ `.md`
+- 🧹 **Clean**: Remove headers, footers, page numbers, file titles
+- 🧠 **Fix**: Broken paragraphs, text orientation, messy tables
+- 📚 **Preserve**: Folder structure & filenames
+- 🛠 **Docker support**: Easily run inside containers
+- 🔥 **Pre-commit hooks**: Auto-format code before committing
+- 🚀 **One Command**: `make run` to process all documents!
 
 ---
 
@@ -30,25 +29,28 @@
 ```plaintext
 pdf-md-cleaner/
 ├── cleaner/
-│   ├── file_converter.py      # Converts various formats to Markdown
-│   ├── markdown_cleaner.py    # Cleans Markdown files
+│   ├── file_converter.py      # Converts supported formats to Markdown
+│   ├── markdown_cleaner.py    # Cleans and formats Markdown
 ├── example/                   # Place your input files here
-├── output/
-│   ├── converted/              # Markdown after conversion
-│   ├── cleaned/                # Final cleaned Markdown
+├── output/                    # Converted and cleaned Markdown files
 ├── tests/
-│   └── test_cleaner.py
-├── main.py                     # Main script
-├── requirements.txt
-├── .gitignore
-└── README.md
+│   └── test_cleaner.py         # Starter test cases
+├── main.py                     # Main entry point
+├── Dockerfile                  # For containerized usage
+├── Makefile                    # For easy one-command operations
+├── requirements.txt            # Python dependencies
+├── LICENSE                     # MIT License
+├── README.md                   # This file
+├── CONTRIBUTING.md             # How to contribute
+├── .gitignore                  # Ignore patterns
+└── .pre-commit-config.yaml     # Pre-commit hooks
 ```
 
 ---
 
 ## 🚀 Quick Start
 
-### 1. Clone the Repository
+### 1. Clone the Repo
 
 ```bash
 git clone https://github.com/phuchungbhutia/pdf-md-cleaner.git
@@ -59,11 +61,12 @@ cd pdf-md-cleaner
 
 ```bash
 pip install -r requirements.txt
+pre-commit install  # (Optional) for auto-formatting
 ```
 
-### 3. Add Your Files
+### 3. Add Input Files
 
-Place `.pdf`, `.docx`, `.doc`, `.txt` files into the `example/` folder.
+Place `.pdf`, `.docx`, `.doc`, or `.txt` files inside the `example/` folder.
 
 ### 4. Run the Script
 
@@ -71,100 +74,100 @@ Place `.pdf`, `.docx`, `.doc`, `.txt` files into the `example/` folder.
 python main.py
 ```
 
-### 5. Check Results
+OR using Makefile:
 
-- Converted Markdown: `output/converted/`
-- Cleaned Markdown: `output/cleaned/`
-
----
-
-## ⚙️ How It Works
-
-| Step | Action | Output Folder |
-|:----:|:------:|:-------------:|
-| 1 | Convert input files | `output/converted/` |
-| 2 | Clean Markdown | `output/cleaned/` |
-
-- **Conversion:** PDF, DOCX, DOC, TXT ➔ basic Markdown
-- **Cleaning:** Remove headers, fix paragraphs, auto-create headings
+```bash
+make run
+```
 
 ---
 
 ## 🛠 Tech Stack
 
-- Python 3.8+
-- [PyMuPDF](https://pymupdf.readthedocs.io/en/latest/) — PDF extraction
-- [python-docx](https://python-docx.readthedocs.io/en/latest/) — DOCX parsing
-- [markdownify](https://pypi.org/project/markdownify/) — HTML ➔ Markdown
-- Regex — Pattern matching and cleaning
+- **Python 3.8+**
+- [pdfplumber](https://github.com/jsvine/pdfplumber) — PDF extraction
+- [mammoth](https://github.com/mwilliamson/python-mammoth) — DOCX ➔ Markdown
+- [markdownify](https://github.com/matthewwithanm/python-markdownify) — HTML ➔ Markdown
+- **Black / Flake8** — Code formatting and linting
+- **Docker** — Easy deployments
 
 ---
 
-## 🚧 Future Improvements
+## 📦 Docker Support
 
-- [ ] Auto-detect and fix complex tables
-- [ ] Advanced heading hierarchy based on font size
-- [ ] CLI Interface (choose file/folder/cleaning rules via terminal)
-- [ ] Docker container for easy deployment
-- [ ] GitHub Action for automatic processing
-
----
-
-
-# 🎯 One Liner
-
-> **pdf-md-cleaner**: Turn your messy documents into clean, structured Markdown — effortlessly!
-
----
-
-### 📦 Install
+Run everything inside a Docker container:
 
 ```bash
-git clone https://github.com/phuchungbhutia/pdf-md-cleaner.git
-cd pdf-md-cleaner
-pip install -r requirements.txt
+docker build -t pdf-md-cleaner .
+docker run --rm -v "$PWD/example:/app/example" -v "$PWD/output:/app/output" pdf-md-cleaner
 ```
----
 
-
-### 🌐 GitHub Setup Tips
-```bash
-# Initialize and push to GitHub
-git init
-git add .
-git commit -m "Initial commit"
-gh repo create pdf-md-cleaner --public --source=. --remote=origin --push
-```
-or
-### You already created a GitHub repo manually
-If you've already created a repo at https://github.com/phuchungbhutia/pdf-md-cleaner, just run:
-
-```bash
-git remote add origin https://github.com/phuchungbhutia/pdf-md-cleaner.git
-git branch -M main
-git push -u origin main
-```
-or 
-### Update
-```bash
-git add .
-git commit -m "Update"
-git push
-```
----
-## 👥 Contributors
-<a href="https://github.com/phuchungbhutia/pdf-md-cleaner/graphs/contributors"> <img src="https://contrib.rocks/image?repo=phuchungbhutia/pdf-md-cleaner" /> </a>
+✅ No local installs needed.
 
 ---
 
-## 📊 GitHub Stats
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/pin/?username=phuchungbhutia&repo=pdf-md-cleaner&theme=tokyonight" /> </p>
+## 🔍 How It Works
+
+| Step | Action | Output Folder |
+|:----:|:------:|:-------------:|
+| 1 | Convert input files | `output/` |
+| 2 | Clean Markdown | `output/` |
+
+- **Conversion**: PDF/DOCX/DOC/TXT ➔ basic Markdown
+- **Cleaning**: Remove repeated titles, fix paragraphs, clean tables
+
+---
+
+## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=phuchungbhutia&repo=pdf-md-cleaner&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=phuchungbhutia&repo=pdf-md-cleaner&theme=tokyonight" />
 </p>
 
 ---
 
+## 👥 Contributors
+
+Thanks to all contributors ❤️
+
+<a href="https://github.com/phuchungbhutia/pdf-md-cleaner/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=phuchungbhutia/pdf-md-cleaner" />
+</a>
+
+---
+
+## 🧩 Future Plans
+
+- [ ] Smarter table handling
+- [ ] Dynamic heading detection
+- [ ] CLI argument parser (input/output/custom rules)
+- [ ] Deployable Docker image
+- [ ] GitHub Actions for CI
+
+---
+
+## 🤝 Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before contributing!  
+We welcome all pull requests, suggestions, and improvements.
+
+---
+
 ## 📜 License
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more info.
+
+Licensed under the [MIT License](LICENSE).
+
+---
+```
+
+---
+
+# 🔥 Summary of Enhancements:
+- **Centered badges** at top.
+- **Modern structure** and bulleting.
+- **Docker usage instructions**.
+- **Makefile usage instructions**.
+- **Full GitHub stats**, contributors image.
+- **Smoother sectioning** (with emojis and dividers).
+
+---
