@@ -15,16 +15,6 @@ Effortlessly clean and optimize Markdown files converted from PDFs — remove ju
 ✅ Lightweight and customizable with regex  
 ✅ Easy to plug into your existing MD processing pipeline
 
-## 🎬 Demo
-
-> _Drop a before/after GIF here if you like. Use [Licecap](https://www.cockos.com/licecap/) or similar._
- 
-Before:	After:
-Page 1	
-THIS IS A HEADING	## This Is A Heading
-Some text	Some text More text continues.
-More text
-
 ## 🧰 Getting Started
 
 ### 📁 Project File Structure
