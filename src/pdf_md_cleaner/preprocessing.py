@@ -1,5 +1,4 @@
 from PIL import Image
-
 import cv2
 import numpy as np
 
@@ -83,17 +82,30 @@ def sharpen(image: Image.Image) -> Image.Image:
     return Image.fromarray(result)
 
 
-def preprocess_for_ocr(
-    image: Image.Image,
-) -> Image.Image:
-    """
-    General OCR preprocessing pipeline.
-    """
+def preprocess_for_ocr(pil_image: Image.Image) -> Image.Image:
+  """Denoise, deskew, and threshold image to prevent margin OCR artifacts."""
+  img = np.array(pil_image)
 
-    image = denoise(image)
+  # Convert to grayscale
+  if len(img.shape) == 3:
+    gray = cv2.cvtColor(img, cv2.COLOR_RGB2GRAY)
+  else:
+    gray = img
 
-    image = adaptive_threshold(image)
+  # 1. Remove black borders / margin noise from scanning bed
+  h, w = gray.shape
+  margin_h = int(h * 0.02)
+  margin_w = int(w * 0.02)
+  # Mask outermost 2% borders to white
+  gray[:margin_h, :] = 255
+  gray[-margin_h:, :] = 255
+  gray[:, :margin_w] = 255
+  gray[:, -margin_w:] = 255
 
-    image = sharpen(image)
+  # 2. Otsu Binarization (converts gray smudge to clean black & white)
+  _, thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY + cv2.THRESH_OTSU)
 
-    return image
+  # 3. Median blur to remove salt-and-pepper dust
+  denoised = cv2.medianBlur(thresh, 3)
+
+  return Image.fromarray(denoised)

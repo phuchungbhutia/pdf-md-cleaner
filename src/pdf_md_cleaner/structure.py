@@ -1,4 +1,6 @@
 import re
+from typing import List
+from .cleanup import is_valid_heading
 
 
 LEGAL_HEADING_PATTERNS = [
@@ -98,16 +100,23 @@ def markdownize_structure(text: str) -> str:
 
     return "\n".join(result)
 
+def extract_headings(text: str) -> List[str]:
+  headings = []
+  heading_pattern = re.compile(
+      r"^(?:CHAPTER\s+[IVXLCDM]+|"
+      r"\d+\.\d+\s+[A-Z]|"
+      r"Rule\s+\d+|"
+      r"[A-Z\s]{4,})$",
+      re.IGNORECASE,
+  )
 
-def extract_headings(text: str) -> list[str]:
+  for raw_line in text.splitlines():
+    line = raw_line.strip()
+    if not line:
+      continue
 
-    headings = []
+    # Match predefined heading syntax AND pass the garbage filter
+    if heading_pattern.match(line) and is_valid_heading(line):
+      headings.append(line)
 
-    for line in text.splitlines():
-
-        heading = classify_heading(line)
-
-        if heading:
-            headings.append(line.strip())
-
-    return headings
+  return headings
