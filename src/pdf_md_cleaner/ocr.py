@@ -1,8 +1,12 @@
 from dataclasses import dataclass
-
 from PIL import Image
 import pytesseract
+import os
 
+# Default installation paths for Windows
+default_tesseract_path = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+if os.path.exists(default_tesseract_path):
+  pytesseract.pytesseract.tesseract_cmd = default_tesseract_path
 
 @dataclass
 class OCRResult:
