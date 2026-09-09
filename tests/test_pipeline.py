@@ -1,5 +1,7 @@
 from pathlib import Path
+
 import pytest
+
 from pdf_md_cleaner.config import CleanerConfig
 from pdf_md_cleaner.pipeline import process_pdf
 

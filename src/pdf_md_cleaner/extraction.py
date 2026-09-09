@@ -1,6 +1,8 @@
 from pathlib import Path
 from typing import List, Union
+
 import pymupdf as fitz
+
 from .cleanup import clean_ocr_text
 from .config import CleanerConfig
 from .models import PageResult
@@ -17,7 +19,6 @@ def extract_page(
 ) -> PageResult:
     native_text = extract_native_text(page)
 
-    # Native PDF text is preferred when enough text exists.
     if len(native_text.strip()) >= config.min_native_chars:
         cleaned = clean_ocr_text(native_text)
         tables = []
@@ -36,7 +37,6 @@ def extract_page(
             tables=tables,
         )
 
-    # Otherwise use OCR.
     image = render_page(
         page,
         dpi=config.dpi,
@@ -51,7 +51,6 @@ def extract_page(
     )
 
     cleaned = clean_ocr_text(ocr_result.text)
-
     review_required = ocr_result.confidence < config.min_ocr_confidence
 
     warnings = []
