@@ -12,38 +12,26 @@ def create_document_result(
     output_file: Path,
     config: CleanerConfig,
 ) -> DocumentResult:
+    input_path = Path(input_file)
+    if not input_path.is_file():
+        raise FileNotFoundError(f"Input file does not exist: {input_path}")
 
     pages = extract_document(
-        input_file,
+        input_path,
         config,
     )
 
     result = DocumentResult(
-        source_file=str(
-            input_file.resolve()
-        ),
-        output_file=str(
-            output_file.resolve()
-        ),
+        source_file=str(input_path.resolve()),
+        output_file=str(output_file.resolve()),
         pages=pages,
         total_pages=len(pages),
-        ocr_pages=sum(
-            1
-            for page in pages
-            if page.ocr_used
-        ),
-        review_pages=sum(
-            1
-            for page in pages
-            if page.review_required
-        ),
+        ocr_pages=sum(1 for page in pages if page.ocr_used),
+        review_pages=sum(1 for page in pages if page.review_required),
     )
 
     for page in pages:
-
-        result.warnings.extend(
-            page.warnings
-        )
+        result.warnings.extend(page.warnings)
 
     return result
 
@@ -53,9 +41,12 @@ def process_pdf(
     output_file: Path,
     config: CleanerConfig,
 ) -> DocumentResult:
+    input_path = Path(input_file)
+    if not input_path.is_file():
+        raise FileNotFoundError(f"Input file does not exist: {input_path}")
 
     result = create_document_result(
-        input_file,
+        input_path,
         output_file,
         config,
     )
@@ -83,7 +74,6 @@ def write_report(
     result: DocumentResult,
     report_file: Path,
 ) -> None:
-
     report = {
         "source_file": result.source_file,
         "output_file": result.output_file,
