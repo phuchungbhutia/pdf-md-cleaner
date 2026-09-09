@@ -1,7 +1,6 @@
 import os
 import shutil
 from dataclasses import dataclass
-from typing import Optional
 
 from PIL import Image
 import pytesseract

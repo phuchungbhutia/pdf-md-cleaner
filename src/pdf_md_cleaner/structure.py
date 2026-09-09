@@ -1,122 +1,54 @@
 import re
 from typing import List
-from .cleanup import is_valid_heading
 
 
-LEGAL_HEADING_PATTERNS = [
-    r"^section\s+\d+",
-    r"^chapter\s+[ivxlcdm\d]+",
-    r"^part\s+[ivxlcdm\d]+",
-    r"^rule\s+\d+",
-    r"^regulation\s+\d+",
-    r"^schedule\s+[ivxlcdm\d]+",
-    r"^annexure\s+[a-z0-9]+",
-    r"^appendix\s+[a-z0-9]+",
-    r"^form\s+(no\.?\s*)?\d+",
-]
+def is_rule_heading(line: str) -> bool:
+    """Check if a line matches rule heading patterns like 'Rule 1. General'."""
+    text = line.strip()
+    if not text:
+        return False
+    return bool(re.match(r"^Rule\s+\d+[\.\:]?\s*.*$", text, flags=re.IGNORECASE))
 
 
-def is_legal_heading(line: str) -> bool:
+def is_numbered_heading(line: str) -> bool:
+    """Check if a line matches numbered patterns like '1.1 Definitions' or '2.3.1 Scope'."""
+    text = line.strip()
+    if not text:
+        return False
+    return bool(re.match(r"^\d+(?:\.\d+)+\.?\s+[A-Za-z0-9].*$", text))
 
-    normalized = line.strip().lower()
 
-    for pattern in LEGAL_HEADING_PATTERNS:
-        if re.match(pattern, normalized):
-            return True
+def is_heading(line: str) -> bool:
+    """Check if a line matches any recognized document heading structure."""
+    text = line.strip()
+    if not text:
+        return False
+
+    if is_rule_heading(text):
+        return True
+
+    if is_numbered_heading(text):
+        return True
+
+    # Chapter / Part / Section markers: 'CHAPTER — I', 'PART II', 'SECTION 3'
+    if re.match(r"^(?:CHAPTER|PART|SECTION)\s*[-—:]?\s*[IVXLCDM0-9]+.*$", text, flags=re.IGNORECASE):
+        return True
+
+    # Short uppercase headers: 'PREFACE', 'GENERAL', 'ANNEXURE I'
+    letters = [c for c in text if c.isalpha()]
+    if letters and text.isupper() and len(text.split()) <= 6 and len(text) >= 3:
+        return True
 
     return False
 
 
-def is_numbered_heading(line: str) -> bool:
-
-    return bool(
-        re.match(
-            r"^\d+(\.\d+)*[\.\)]?\s+\S+",
-            line.strip(),
-        )
-    )
-
-
-def is_all_caps_heading(line: str) -> bool:
-
-    stripped = line.strip()
-
-    if len(stripped) < 4:
-        return False
-
-    letters = [
-        char
-        for char in stripped
-        if char.isalpha()
-    ]
-
-    if not letters:
-        return False
-
-    return (
-        sum(char.isupper() for char in letters)
-        / len(letters)
-        >= 0.85
-    )
-
-
-def classify_heading(line: str) -> str | None:
-
-    stripped = line.strip()
-
-    if not stripped:
-        return None
-
-    if is_legal_heading(stripped):
-        return "h2"
-
-    if is_numbered_heading(stripped):
-        return "h3"
-
-    if is_all_caps_heading(stripped):
-        return "h2"
-
-    return None
-
-
-def markdownize_structure(text: str) -> str:
-
-    lines = text.splitlines()
-
-    result = []
-
-    for line in lines:
-
-        heading = classify_heading(line)
-
-        if heading == "h2":
-            result.append(f"## {line.strip()}")
-
-        elif heading == "h3":
-            result.append(f"### {line.strip()}")
-
-        else:
-            result.append(line)
-
-    return "\n".join(result)
-
 def extract_headings(text: str) -> List[str]:
-  headings = []
-  heading_pattern = re.compile(
-      r"^(?:CHAPTER\s+[IVXLCDM]+|"
-      r"\d+\.\d+\s+[A-Z]|"
-      r"Rule\s+\d+|"
-      r"[A-Z\s]{4,})$",
-      re.IGNORECASE,
-  )
-
-  for raw_line in text.splitlines():
-    line = raw_line.strip()
-    if not line:
-      continue
-
-    # Match predefined heading syntax AND pass the garbage filter
-    if heading_pattern.match(line) and is_valid_heading(line):
-      headings.append(line)
-
-  return headings
+    """Extract all recognized heading lines from a block of text."""
+    headings: List[str] = []
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if not line:
+            continue
+        if is_heading(line):
+            headings.append(line)
+    return headings

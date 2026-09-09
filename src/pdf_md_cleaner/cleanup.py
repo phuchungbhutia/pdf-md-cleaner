@@ -1,5 +1,5 @@
 import re
-from typing import List, Optional
+from typing import List
 
 OCR_REPLACEMENTS = {
     "\u00a0": " ",
