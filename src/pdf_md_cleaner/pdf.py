@@ -1,8 +1,6 @@
 from pathlib import Path
-
-import fitz
+import pymupdf as fitz
 from PIL import Image
-
 
 def open_pdf(path: Path) -> fitz.Document:
     if not path.exists():

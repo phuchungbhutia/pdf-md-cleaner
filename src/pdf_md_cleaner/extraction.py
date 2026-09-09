@@ -1,8 +1,6 @@
 from pathlib import Path
 from typing import List, Union
-
-import fitz
-
+import pymupdf as fitz
 from .cleanup import clean_ocr_text
 from .config import CleanerConfig
 from .models import PageResult
