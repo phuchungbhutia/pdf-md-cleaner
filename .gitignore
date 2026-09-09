@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff
+.ruff_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Generated files
+output/*
+work/*
+
+!output/.gitkeep
+!work/.gitkeep
+
+# Input documents
+input/*
+!input/.gitkeep
+
+# Logs
+*.log
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

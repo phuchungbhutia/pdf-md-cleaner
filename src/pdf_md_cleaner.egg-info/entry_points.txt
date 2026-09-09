@@ -1,0 +1,2 @@
+[console_scripts]
+pdf-md-cleaner = pdf_md_cleaner.cli:main
